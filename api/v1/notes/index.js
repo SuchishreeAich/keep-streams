@@ -1,1 +1,1 @@
-module.exports = require('./notes.route');
+module.exports = require('./notes.router');

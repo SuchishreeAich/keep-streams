@@ -13,7 +13,7 @@
     "sourceType": "module"
   },
   "extends": "eslint:recommended",
-  "env" : {"node" : true},
+  "env" : {"node" : true,"es6" : true},
   "rules": {},
   "plugins": []
 }

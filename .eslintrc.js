@@ -1,4 +1,4 @@
-module.exports = {
+  module.exports = {
   "globals": {
     "document": true,
     "console": true,
@@ -13,6 +13,7 @@ module.exports = {
     "sourceType": "module"
   },
   "extends": "eslint:recommended",
+  "env" : {"node" : true},
   "rules": {},
   "plugins": []
 }

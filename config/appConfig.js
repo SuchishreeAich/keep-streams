@@ -12,8 +12,25 @@ const authConfig = {
   jwtSecret: 'jwttokenbasedauth'
 }
 
+// Logger configuration
+const loggerConfig = {
+  appenders: {
+    console: {
+      type: 'console'
+    },
+    keepLogs: {
+      type: 'file',
+      filename: './server/logs/keep.log'
+    }
+  },
+  categories: {
+    default: { appenders: ['console', 'keepLogs'], level: 'trace' }
+  }
+};
+
 module.exports = {
   serverConfig,
+  loggerConfig,
   dbConfig,
   authConfig
 }

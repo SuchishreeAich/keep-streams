@@ -2,7 +2,6 @@ const noteDAO = require('./notes.dao');
 
 // upload notes
 const uploadNotes = () => {
-    //console.log('add notes 3');
     return noteDAO.uploadNotes();
 }
 

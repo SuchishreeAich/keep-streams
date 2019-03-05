@@ -2,7 +2,7 @@ const chai = require('chai');
 const expect = chai.expect;
 const app = require('../app');
 const config = require('./test.config');
-
+const request = require('supertest');
 
 describe('Streams test', () =>{
 

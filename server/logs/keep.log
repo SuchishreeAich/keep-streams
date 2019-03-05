@@ -77,3 +77,5 @@
 [2019-03-05T14:59:18.129] [INFO] default - Connected to mongo database
 [2019-03-05T15:06:39.138] [INFO] default - Server running at http://127.0.0.1:3000/
 [2019-03-05T15:06:39.162] [INFO] default - Connected to mongo database
+[2019-03-05T15:17:43.990] [INFO] default - Server running at http://127.0.0.1:3000/
+[2019-03-05T15:17:44.015] [INFO] default - Connected to mongo database

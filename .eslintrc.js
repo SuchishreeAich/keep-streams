@@ -7,13 +7,13 @@
   },
   "env": {
     "es6": true,
-    "mocha": true
+    "mocha": true,
+    "node" : true
   },
   "parserOptions": {
     "sourceType": "module"
   },
   "extends": "eslint:recommended",
-  "env" : {"node" : true,"es6" : true},
   "rules": {},
   "plugins": []
 }
